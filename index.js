@@ -70,9 +70,6 @@ async function travelyDB (){
             const result = await bookingCollection.deleteOne(query)
             res.json(result)
         })
-
-
-
     }finally {
 
     }
